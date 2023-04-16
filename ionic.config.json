@@ -1,0 +1,7 @@
+{
+  "name": "beer-catalog-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
