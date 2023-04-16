@@ -3,8 +3,8 @@
 
 ## Развертывание в веб-среде
 * Клонировать репозиторий
-* Установить зависимости (npm i)
-* Выполнить команду "ionic serve"
+* Установить зависимости (команда "npm i")
+* Запустить проект, выполнив команду "ionic serve"
 
 Веб-приложение будет доступно по пути `http://localhost:8100/`.
 
@@ -16,5 +16,7 @@
 * Выполнить настройку приложения и закончить сборку
 
 Подробнее: 
+
 https://ionicframework.com/docs/developing/android
+
 https://ionic.io/blog/building-and-releasing-your-capacitor-android-app
