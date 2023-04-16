@@ -1,27 +1,30 @@
-#container {
-  text-align: center;
+.beer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  
+  .pagination-block {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas: "A B C";
+    align-items: center;
+    margin: 10px;    
+  }
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  .box-1 {
+    grid-area: A;
+    justify-self: flex-start;
+  }
+  .box-2 {
+    grid-area: B;
+  }
+  .box-3 {
+    grid-area: C;
+    justify-self: flex-end;
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.favorite-btn {
+  color: var(--ion-color-primary);
 }
